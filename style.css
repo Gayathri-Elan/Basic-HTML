@@ -47,20 +47,8 @@ footer p {
   font-size: 16px;
 }
 
-/* using id to name and style specific elements*/
-#author {
-  font-style: italic;
-  font-size: 18px;
-}
-
 #copyright {
   font-size: 16px;
-}
-
-/*using class to name and style specific elements*/
-.related-link {
-  font-style: italic;
-  font-size: 20px;
 }
 
 .related {
@@ -75,4 +63,25 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+}
+
+/*Styling links*/
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
