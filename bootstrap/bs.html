@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap</title>
+
+    <link href="bootstrap.css" rel="stylesheet" />
+    <style>
+      [class*="col"] {
+        background-color: white;
+        color: black;
+        margin-right: 20px;
+      }
+      [class*="container"] {
+        margin-bottom: 30px;
+      }
+      [class*="row"] {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-md">
+      <div class="navbar navbar-expandbg-dark">
+        <a class="navbar-brand" href="https://getbootstrap.com/">
+          <img
+            src="bslogo.png"
+            alt="bslogo"
+            class="rounded-pill"
+            width="50px"
+            height="40px"
+          />
+        </a>
+        <span class="navbar-text"
+          >And yes, this page was built using Bootstrap</span
+        >
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Link2</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link3</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Link4</a></li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              href="#"
+              >Dropdown</a
+            >
+            <ul class="dropdown-menu bg-dark">
+              <li>
+                <a class="dropdown-item text-white" href="#">Link5</a>
+              </li>
+              <li><a class="dropdown-item text-white" href="#">Link6</a></li>
+              <li><a class="dropdown-item text-white" href="#">Link7</a></li>
+            </ul>
+          </li>
+          <li>
+            <form class="d-flex">
+              <input class="form-control" type="text" placeholder="Search" />
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-md">
+      <img class="img-fluid" src="bsimg.jpg" alt="bootstrap_icon" />
+    </div>
+    <div class="container-md">
+      <div class="row">
+        <div class="col-sm">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          tincidunt elementum diam nec porttitor. Vivamus eleifend accumsan nisl
+          maximus interdum. Maecenas malesuada ex quis urna sagittis vehicula.
+          Donec ultricies nisi ex, consectetur dignissim mi posuere quis.
+          Suspendisse ut dui et odio hendrerit pretium fringilla at turpis.
+        </div>
+        <div class="col-sm">
+          Maecenas quis mattis neque, in finibus nunc. Aliquam sodales nisl id
+          suscipit congue. Cras quam sem, vulputate eu porta sit amet, porttitor
+          condimentum urna. Quisque nisi nisi, imperdiet tincidunt ante eget,
+          hendrerit sollicitudin massa. Quisque dapibus metus dignissim auctor
+          ultricies. Nulla ac mi aliquet odio finibus vehicula.
+        </div>
+        <div class="col-sm">
+          Nulla facilisi. Praesent nec nunc dignissim, tempor dui vel, dapibus
+          libero. Maecenas eu velit sagittis, egestas erat nec, scelerisque
+          enim. Nullam viverra, lectus ultrices ultrices gravida, orci risus
+          tincidunt neque, vitae lobortis arcu est ut diam. Cras dolor urna,
+          faucibus sit amet venenatis ut, vehicula vel purus. Aenean maximus
+          rhoncus facilisis. Vivamus at nibh est.
+        </div>
+      </div>
+    </div>
+    <div class="container-md">
+      <center><h1 class="heading">More Lorem Ipsum</h1></center>
+      <div class="row">
+        <div class="col-sm">
+          <div class="row">
+            <img src="one.png" alt="no image found" />
+          </div>
+          <div class="row">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris at
+            molestie elit, vitae ullamcorper lectus. Phasellus nec tristique
+            est, in blandit nisl. Curabitur feugiat, libero eget suscipit
+            maximus, erat dolor dignissim lacus, vitae vulputate enim erat id
+            odio.
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="row">
+            <img src="two.png" alt="no image found" />
+          </div>
+          <div class="row">
+            Curabitur euismod eu leo sed vulputate. Phasellus laoreet lacus quis
+            lobortis mattis. Maecenas sit amet porttitor elit. In hac habitasse
+            platea dictumst. Sed ut ligula gravida nisi finibus ornare. Mauris
+            auctor at augue ultricies laoreet. Cras pharetra ligula neque.
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="row">
+            <img src="three.png" alt="no image found" />
+          </div>
+          <div class="row">
+            Donec eget lacinia urna. Donec ut nibh in mi facilisis feugiat. Nam
+            in dui faucibus, malesuada orci eu, porttitor ex. Vestibulum ante
+            ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            curae; Donec urna sem, egestas venenatis fermentum et, semper eget
+            ligula.
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="row">
+            <img src="four.png" alt="no image found" />
+          </div>
+          <div class="row">
+            Sed velit ligula, fermentum sed quam at, consequat finibus augue. In
+            aliquam, odio nec volutpat maximus, nisl sem iaculis odio, a lacinia
+            ex nulla fringilla nibh. Pellentesque habitant morbi tristique
+            senectus et netus et malesuada fames ac turpis egestas.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-md">
+      <div class="row">
+        <div class="col-sm">
+          <center><h2>This was fun</h2></center>
+          <form class="d-flex">
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Was it fun for you, too? Yay/Nay"
+            />
+            <button class="btn btn-primary" type="button">
+              Click here for satisfactory reasons
+            </button>
+          </form>
+        </div>
+        <div class="col-sm">
+          <a href="https://twitter.com/login?lang=en>"
+            ><img
+              src="twitterlogo.png"
+              alt="twitter"
+              width="40px"
+              height="40px"
+            />
+          </a>
+          <a href="https://twitter.com/login?lang=en>"
+            ><img
+              src="linkedinlogo.png"
+              alt="linkedin"
+              width="40px"
+              height="40px"
+            /> </a
+          ><a href="https://twitter.com/login?lang=en>"
+            ><img
+              src="githublogo.png"
+              alt="github"
+              width="40px"
+              height="40px"
+            />
+          </a>
+          <div class="row">
+            <div class="col-sm">
+              This was fun!But yes, this is just a small step.
+            </div>
+            <div class="col-sm">
+              There are so many exciting projects to do and stuff to learn and
+              tada! More lorem ipsum Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit.
+            </div>
+            <div class="col-sm">
+              And wow I just had an existential crisis when I searched the
+              github profile, wondering if the tail is supposed to be there or
+              not lol
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Bootstrap Popper-->
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <!--Bootstrap Javascript-->
+    <script src="bootstrap.js"></script>
+  </body>
+</html>
